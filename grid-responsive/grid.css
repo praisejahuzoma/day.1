@@ -1,0 +1,28 @@
+html{ 
+    font-size: 22px;
+}
+body{ 
+    padding: 1rem;
+}
+
+.grid{
+    background-color: orange;
+    color: beige;
+    padding: 50px;
+    font-size: 20px;
+    text-align: center;
+    height: 90px;
+}
+.grids{
+    max-width: 1200px;
+    margin: o auto;
+    display: grid;
+    grid-gap:  1rem;
+}
+@media (min-width: 600px) {
+    .grids{grid-template-columns: repeat(3, 1fr); }
+}
+.em{
+    text-align: center;
+    color: aqua;
+}
